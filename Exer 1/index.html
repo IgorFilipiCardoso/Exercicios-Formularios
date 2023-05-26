@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="tudo">
+        <main>
+            <section class="linking">
+                <div class="link">
+                    <a href="../index.html">Home</a>
+                </div>
+                <div class="link">
+                    <a href="../Exer 2/index.html">Exercício 2</a>
+                </div>
+                <div class="link">
+                    <a href="../Exer 3/index.html">Exercício 3</a>
+                </div>
+            </section>
+            <div class="menu">
+                <section class="loginho">
+                    <form action="http://localhost:8080/login" method="post">
+                        <section class="login">
+                            <label for="login">
+                                Entrar
+                            </label>
+                            <input type="text" name="login" required="required" maxlength="30" placeholder="Nome" id="login">
+                        </section>
+                        
+                        <section class="login">
+                            <input type="text" required="required" placeholder="Endereço" maxlength="50" name="endereco" id="endereco">
+                        </section>
+                        <section class="login">
+                            <input type="tel" required="required" placeholder="(00) 0000-00-00" maxlength="50" name="endereco" id="endereco">
+                        </section>
+                        <section class="login">
+                            <input type="password" required="required" placeholder="Senha" maxlength="12" name="senha" id="senha">
+                        </section>
+                        <section class="botoes">
+                            <input type="submit" value="Enviar" name="enviar">
+                            <input type="reset" value="Limpar" name="limpar">
+                        </section>
+                    </form>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
